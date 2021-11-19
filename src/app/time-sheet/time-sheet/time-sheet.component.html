@@ -40,7 +40,7 @@
                     <div class="xs-count-down">
                         <div class="single-team">
                             <div class="team-img">
-                                <img src={{employeesList[0].image}} alt="">
+                                <img src={{employeesList[0]?.image}} alt="">
                                 <div class="team-social">
                                     <a href="#">
                                         <i class="icon icon-facebook"></i>
@@ -54,9 +54,9 @@
                                 </div>
                             </div>
                             <div class="team-content">
-                                <h3 class="xs-title md">{{employeesList[0].firstName}} {{employeesList[0].lastName}}
+                                <h3 class="xs-title md">{{employeesList[0]?.firstName}} {{employeesList[0]?.lastName}}
                                 </h3>
-                                <p>{{employeesList[0].post}}</p>
+                                <p>{{employeesList[0]?.post}}</p>
                             </div>
                         </div>
                     </div>
@@ -67,19 +67,19 @@
                         <ul>
                             <li>
                                 <strong> First Name</strong>
-                                <span> {{employeesList[0].firstName}}</span>
+                                <span> {{employeesList[0]?.firstName}}</span>
                             </li>
                             <li>
                                 <strong> Last Name</strong>
-                                <span>{{employeesList[0].lastName}}</span>
+                                <span>{{employeesList[0]?.lastName}}</span>
                             </li>
                             <li>
                                 <strong> Birthday</strong>
-                                <span>{{employeesList[0].birthDay}}</span>
+                                <span>{{employeesList[0]?.birthDay}}</span>
                             </li>
                             <li>
                                 <strong> Post</strong>
-                                <span>{{employeesList[0].post}}</span>
+                                <span>{{employeesList[0]?.post}}</span>
                             </li>
                         </ul>
                     </div>
